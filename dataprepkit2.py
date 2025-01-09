@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from typing import Union
-df=pd.read_csv('D:\\New folder\\Epsilon AI\\Mohamed Agoor\\Lecture 4 (EDA)\\Notebooks\\projects\\2\\fifa_eda.csv')
+df=pd.read_csv('C:\\projects\\dataprepkit\\fifa_eda.csv')
 class DataPrepKit:
     def __init__(self, df: pd.DataFrame):
         self.df = df
